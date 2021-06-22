@@ -1,0 +1,467 @@
+{
+  "name": "Connect 4",
+  "version": "0.1.0",
+  "settings": {
+    "options": {
+      "width": {
+        "type": "NUMBER",
+        "range": "8 16",
+        "name": "width",
+        "index": 0
+      },
+      "height": {
+        "type": "NUMBER",
+        "range": "8 16",
+        "name": "height",
+        "index": 1
+      },
+      "falling": {
+        "type": "FLAG",
+        "name": "falling",
+        "index": 2,
+        "value": "TRUE"
+      }
+    },
+    "presets": [
+      {
+        "name": "small",
+        "values": {
+          "width": 8,
+          "height": 8
+        },
+        "index": 3
+      },
+      {
+        "name": "large",
+        "values": {
+          "width": 16,
+          "height": 16
+        },
+        "index": 4
+      }
+    ]
+  },
+  "code": {
+    "context": {
+      "board": {
+        "width": "width",
+        "height": "height"
+      }
+    },
+    "structures": {
+      "PLAYER": {
+        "points": "NUMBER",
+        "color": "COLOR"
+      }
+    },
+    "globals": {
+      "players": "LIST OF PLAYER",
+      "current": "FLAG",
+      "falling": "FLAG",
+      "won": "FLAG"
+    },
+    "functions": {
+      "Start": {
+        "header": {},
+        "body": [
+          "color OF 0 OF players SET RED",
+          "color OF 1 OF players SET YELLOW",
+          "BACKGROUND SET color OF 1 OF players"
+        ]
+      },
+      "Run": {
+        "header": {},
+        "body": []
+      },
+      "MousePressed": {
+        "header": {
+          "mouseX": "NUMBER",
+          "mouseY": "NUMBER"
+        },
+        "body": [
+          {
+            "IF": "won IS FALSE",
+            "THEN":[
+              "DO SetBlock WITH mouseX AS posX AND mouseY AS posY"
+            ]
+          }
+        ]
+      },
+      "SetBlock": {
+        "header": {
+          "posX": "NUMBER",
+          "posY": "NUMBER",
+          "y": "NUMBER",
+          "hasFallen": "FLAG"
+        },
+        "body": [
+          {
+            "IF": "falling IS TRUE",
+            "THEN": [
+              {
+                "FOR": "y FROM 0 TO height",
+                "DO": [
+                  {
+                    "IF": "hasFallen IS FALSE",
+                    "THEN": [
+                      {
+                        "IF": "BOARD posX y IS WHITE",
+                        "THEN": [
+                          "posY SET y"
+                        ],
+                        "ELSE": [
+                          "hasFallen SET TRUE"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "IF": "BOARD posX posY IS WHITE",
+            "THEN": [
+              {
+                "IF": "current IS TRUE",
+                "THEN": [
+                  "BOARD posX posY SET color OF 0 OF players",
+                  "DO TogglePlayer"
+                ],
+                "ELSE": [
+                  "BOARD posX posY SET color OF 1 OF players",
+                  "DO TogglePlayer"
+                ]
+              },
+              "DO CheckWin WITH posX AS posX AND posY AS posY"
+            ]
+          }
+        ]
+      },
+      "CheckWin": {
+        "header": {
+          "posX": "NUMBER",
+          "posY": "NUMBER",
+          "color": "COLOR",
+          "c": "NUMBER",
+          "counter": "NUMBER",
+          "temp": "NUMBER",
+          "tempX": "NUMBER",
+          "tempY": "NUMBER",
+          "break": "FLAG"
+        },
+        "body": [
+          "counter SET 0",
+          "break SET FALSE",
+          {
+            "IF": "current IS TRUE",
+            "THEN": [
+              "color SET color OF 1 OF players"
+            ],
+            "ELSE": [
+              "color SET color OF 0 OF players"
+            ]
+          },
+          {
+            "FOR": "c FROM posX TO width",
+            "DO": [
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD c posY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "break SET FALSE",
+          {
+            "FOR": "c FROM posX TO -1 COUNTING -1",
+            "DO": [
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD c posY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "IF": "counter GTR 4",
+            "THEN": [
+              "DO Win WITH color AS color"
+            ]
+          },
+          
+          "counter SET 0",
+          "break SET FALSE",
+          {
+            "FOR": "c FROM posY TO height",
+            "DO": [
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD posX c IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "break SET FALSE",
+          {
+            "FOR": "c FROM posY TO -1 COUNTING -1",
+            "DO": [
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD posX c IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "IF": "counter GTR 4",
+            "THEN": [
+              "DO Win WITH color AS color"
+            ]
+          },
+          
+          "counter SET 0",
+          "break SET FALSE",
+          "tempX SET width",
+          "tempX SUB posX",
+          "tempY SET height",
+          "tempY SUB posY",
+          {
+            "IF": "tempX LSS tempY",
+            "THEN": [
+              "temp SET tempX"
+            ],
+            "ELSE": [
+              "temp SET tempY"
+            ]
+          },
+          {
+            "FOR": "c FROM 0 TO temp",
+            "DO": [
+              "tempX SET posX",
+              "tempX ADD c",
+              "tempY SET posY",
+              "tempY ADD c",
+              "LOG tempX",
+              "LOG tempY",
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD tempX tempY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "break SET FALSE",
+          "tempX SET posX",
+          "tempY SET posY",
+          {
+            "IF": "tempX LSS tempY",
+            "THEN": [
+              "temp SET tempX"
+            ],
+            "ELSE": [
+              "temp SET tempY"
+            ]
+          },
+          {
+            "FOR": "c FROM 0 TO temp",
+            "DO": [
+              "tempX SET posX",
+              "tempX SUB c",
+              "tempY SET posY",
+              "tempY SUB c",
+              "LOG tempX",
+              "LOG tempY",
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD tempX tempY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "IF": "counter GTR 4",
+            "THEN": [
+              "DO Win WITH color AS color"
+            ]
+          },
+          
+          "counter SET 0",
+          "break SET FALSE",
+          "tempX SET width",
+          "tempX SUB posX",
+          "tempY SET posY",
+          {
+            "IF": "tempX LSS tempY",
+            "THEN": [
+              "temp SET tempX"
+            ],
+            "ELSE": [
+              "temp SET tempY"
+            ]
+          },
+          {
+            "FOR": "c FROM 0 TO temp",
+            "DO": [
+              "tempX SET posX",
+              "tempX ADD c",
+              "tempY SET posY",
+              "tempY SUB c",
+              "LOG tempX",
+              "LOG tempY",
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD tempX tempY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "break SET FALSE",
+          "tempX SET posX",
+          "tempY SET height",
+          "tempY SUB posY",
+          {
+            "IF": "tempX LSS tempY",
+            "THEN": [
+              "temp SET tempX"
+            ],
+            "ELSE": [
+              "temp SET tempY"
+            ]
+          },
+          {
+            "FOR": "c FROM 0 TO temp",
+            "DO": [
+              "tempX SET posX",
+              "tempX SUB c",
+              "tempY SET posY",
+              "tempY ADD c",
+              "LOG tempX",
+              "LOG tempY",
+              {
+                "IF": "break IS FALSE",
+                "THEN": [
+                  {
+                    "IF": "BOARD tempX tempY IS color",
+                    "THEN": [
+                      "counter ADD 1"
+                    ],
+                    "ELSE": [
+                      "break SET TRUE"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "LOG counter",
+          {
+            "IF": "counter GTR 4",
+            "THEN": [
+              "DO Win WITH color AS color"
+            ]
+          }
+        ]
+      },
+      "Win": {
+        "header": {
+          "color": "COLOR",
+          "x": "NUMBER",
+          "y": "NUMBER"
+        },
+        "body": [
+          "won SET TRUE",
+          {
+            "FOR": "x FROM 0 TO width",
+            "DO": [
+              {
+                "FOR": "y FROM 0 TO height",
+                "DO": [
+                  "BOARD x y SET color"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "TogglePlayer": {
+        "header": {},
+        "body": [
+          "current TOGGLE current",
+          {
+            "IF": "current IS TRUE",
+            "THEN": [
+              "BACKGROUND SET color OF 0 OF players"
+            ],
+            "ELSE": [
+              "BACKGROUND SET color OF 1 OF players"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

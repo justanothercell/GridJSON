@@ -1,0 +1,1383 @@
+[DEBUG]: Started.
+[DEBUG]: Reloading all games...
+         Successfully loaded Connect 4.
+         Successfully loaded Testgame.
+[DEBUG]: Reloaded all games.
+[DEBUG]: Selected game Connect 4.
+[DEBUG]: Restarted + reset game Connect 4.
+[DEBUG]: Started game Connect 4.
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[DEBUG]: Paused game Connect 4.
+[DEBUG]: Resumed game Connect 4.
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 1
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 7
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 6
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 5
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 8
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 4
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 9
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 3
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 10
+}
+[LOG]: tempX: {
+  "type": "NUMBER",
+  "value": 2
+}
+[LOG]: tempY: {
+  "type": "NUMBER",
+  "value": 11
+}
+[LOG]: counter: {
+  "type": "NUMBER",
+  "value": 11
+}
+[DEBUG]: Exited.

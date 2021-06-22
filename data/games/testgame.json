@@ -1,0 +1,125 @@
+{
+  "name": "Testgame",
+  "version": "0.1.0",
+  "settings": {
+    "options":{
+      "width": {
+        "type": "NUMBER",
+        "range": "8 16",
+        "name": "width",
+        "index": 0
+      },
+      "height": {
+        "type": "NUMBER",
+        "range": "8 16",
+        "name": "height",
+        "index": 1
+      },
+      "cheats": {
+        "type": "FLAG",
+        "name": "Cheats enabled",
+        "index": 2
+      }
+    },
+    "presets": [
+      {
+        "name": "small",
+        "values": {
+          "width": 8,
+          "height": 8,
+          "cheats": false
+        },
+        "index": 3
+      },
+      {
+        "name": "large",
+        "values": {
+          "width": 16,
+          "height": 16,
+          "cheats": false
+        },
+        "index": 4
+      },
+      {
+        "name": "cheat",
+        "values": {
+          "width": 11,
+          "height": 11,
+          "cheats": true
+        },
+        "index": 5
+      },
+      {
+        "name": "widthOnly",
+        "values": {
+          "width": 12
+        },
+        "index": 6
+      }
+    ]
+  },
+  "code":{
+    "context":{
+      "board":{
+        "width": "width",
+        "height": "height"
+      }
+    },
+    "structures":{
+      "PLAYER":{
+        "points": "NUMBER",
+        "color": "COLOR",
+        "testerative": "LIST OF FLAG"
+      }
+    },
+    "globals":{
+      "players": "LIST OF PLAYER",
+      "test": "LIST OF LIST OF NUMBER",
+      "current": "NUMBER"
+    },
+    "functions":{
+      "Start":{
+        "header":{
+
+        },
+        "body":[
+
+        ]
+      },
+      "Run": {
+        "header":{
+        
+        },
+        "body":[
+
+        ]
+      },
+      "MousePressed":{
+        "header":{
+          "x": "NUMBER",
+          "y": "NUMBER"
+        },
+        "body":[
+          "DO DrawPoint WITH x AS myX AND y AS myY"
+        ]
+      },
+      "DrawPoint":{
+        "header":{
+          "myX": "NUMBER",
+          "myY": "NUMBER"
+        },
+        "body":[
+          {
+            "IF": "BOARD myX myY IS RED",
+            "THEN":[
+              "BOARD myX myY SET YELLOW"
+            ],
+            "ELSE":[
+              "BOARD myX myY SET RED"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
