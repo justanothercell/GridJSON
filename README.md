@@ -1,7 +1,9 @@
 # GridJSON
-A processing interpreter for GridJSON, a JSON based language that can only output to a chessboard/grid.
+An interpreter for GridJSON, a JSON based language that can only output to a chessboard/grid.
 
-The current interpreter is bad but it works!
+The interpreter is written in ![Processing](https://processing.org/)
+
+It's badly written but it works!
 
 Feel free to contribute.
 
