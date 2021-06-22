@@ -3,6 +3,8 @@ A processing interpreter for GridJSON, a JSON based language that can only outpu
 
 The current interpreter is bad but it works!
 
+Feel free to contribute.
+
 ## Wiki/Documentation
 (work in progress)
 https://esolangs.org/wiki/GridJSON
