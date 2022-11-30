@@ -3,9 +3,9 @@ An interpreter for GridJSON, a JSON based language that can only output to a che
 
 The interpreter is written in [Processing](https://processing.org/).
 
-It's badly written but it works!
+This barely worlks and is slow af.
 
-Feel free to contribute.
+Coded for a 10th grade school project (making connect-4)
 
 ## Wiki/Documentation
 (work in progress)
